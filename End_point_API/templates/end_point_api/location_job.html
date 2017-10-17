@@ -1,0 +1,7 @@
+{% for job in context.jobs %}
+    {% for position in job %}
+        {{ position | safe }}
+    {% endfor %}
+    {% else %}
+        No jobs have been added yet
+{% endfor %}
