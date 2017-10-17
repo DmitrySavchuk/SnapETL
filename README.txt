@@ -39,6 +39,6 @@ End-point API
 Input
 http://127.0.0.1:5000/jobs/London
 Output
-Clear jobs records fir this location, without html
+Clear jobs records for this location, without html
 
 
